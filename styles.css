@@ -105,6 +105,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.parabstract {
+  text-align: justify;
+  margin: 10px 50px 15px 40px; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+}
+
+
 h3 {
     margin: 10px 50px 15px 40px;
 	font-family: Arial, Helvetica, sans-serif;
