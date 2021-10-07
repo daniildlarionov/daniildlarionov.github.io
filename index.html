@@ -2,91 +2,88 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" width="device-width, initial-scale=1">
 	<title>  About - Daniil Larionov </title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
  </head>
  <body>
- 
-    <div class="container"> 
-	    
-		<div class="nav-wrapper">
-		    <div class = "left-side">
-				<div class="nav-link-wrapper">
-					<a href="index.html">About</a>
-				</div>
-				<div class="nav-link-wrapper">
-					<a href="research.html">Research</a>
-				</div>
-			    <div class="nav-link-wrapper">
-					<a href="teaching.html">Teaching</a>
-				</div>
-			</div>
-			
-			
-			<div class="right-side">
-			
-			    <div class="nav-link-wrapper">
-					<a href="index.html">Daniil Larionov</a>
-				</div>
-				
-			
-			</div>
-			
-			</div>
-		</div>
-         
-	</div>
-	
-	
-	<div class="content-wrapper">
-		<div class="two-column-wrapper">
-		
-		
-		
-		
-		    <div class="profile-content-wrapper">
-			
-			<h3>Welcome to my webpage!</h3> 
-			
-            <p class="par">I am a PhD student at the University of Mannheim interested in Market Design and Industrial Organization. 
-			I am on the academic job market 2021/22. You can download my CV <a href="cv.pdf"> here</a>.</p>
-			   
-			   
-			  <h3 class="contact-header">Contact</h3> 
-            <ul class="contact-details-list"> 
+   <div class="container m-3 p-5">
+       <!--Choose {-sm|-md|-lg|-xl}-->
+     <div class="row">
+       <nav class="navbar navbar-expand-md navbar-light">
+             <a class="navbar-brand text-primary pb-2 mb-0 h2" href="index.html">Daniil Larionov</a>
+             <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#toggleMobileMenu"
+               aria-controls="toggleMobileMenu"
+               aria-expanded="false"
+               aria-label="Toggle navigation"
+               >
+               <span class="navbar-toggler-icon"></span>
+             </button>
+
+         	<div class="collapse navbar-collapse" id="toggleMobileMenu">
+             <ul class="navbar-nav text-center text-uppercase">
+               <li>
+                 <a class="nav-link active" aria-current="page" href="index.html">About</a>
+               </li>
+               <li>
+                 <a class="nav-link text-primary" href="research.html">Research</a>
+               </li>
+               <li>
+                 <a class="nav-link text-primary" href="teaching.html">Teaching</a>
+               </li>
+             </ul>
+         	</div>
+   		</nav>
+     </div>
+
+
+<div class="wrapper">
+
+			<div class="Greeting">
+			     <h3>Welcome to my webpage!</h3>
+           <p class="par">I am a PhD student at the University of Mannheim interested in Market Design and Industrial Organization.
+			          I am on the academic job market 2021/22. You can download my CV <a href="cv.pdf"> here</a>.</p>
+      </div>
+
+      <div class="Profile-image">
+            <img src="photo.png" alt="photo" class="center">
+      </div>
+
+		  <div class="Contact">
+			  <h3 class="contact-header">Contact</h3>
+            <ul class="contact-details-list">
 			   <li> daniil.larionov(at)gess.uni-mannheim.de  </li>
                <li> +49 621/181-3056  </li>
-               <li>   <br> </li>                  
+               <li>   <br> </li>
               <li>  Room: 3-41 </li>
                <li> Department of Economics  </li>
                <li> University of Mannheim   </li>
                <li> L7, 3-5, 68131 Mannheim </li>
                <li> Germany </li>
              </ul>
-
-			
 			</div>
-			
-			<div class="profile-image-wrapper">
-            <img src="photo.png" alt="photo" class="center"> 
-            </div>			
-		
-		
-			
-		</div>
-		
-	</div>
-	
-	
-	
-	
-	
-	
 
-     
-	
-	
-	
-	
+</div> <!--End of my wrapper-->
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+</script>
  </body>
  </html>
