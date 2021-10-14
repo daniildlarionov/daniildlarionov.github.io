@@ -153,7 +153,54 @@ h3 {
 
 
 
+/* Link styles  */
 
+.titlelink:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  transition: color 0.3s
+}
+
+
+.titlelink:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  transition: color 0.3s
+}
+
+.titlelink:hover {
+  color: gray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+.textlink:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+  transition: color 0.3s
+}
+
+
+.textlink:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+  transition: color 0.3s
+}
+
+.textlink:hover {
+  color: gray;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 
 
