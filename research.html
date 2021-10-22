@@ -4,46 +4,51 @@
     <meta charset="utf-8" />
 	<title>  Research - Daniil Larionov </title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
  </head>
  <body>
- 
-    <div class="container"> 
-	    
-		<div class="nav-wrapper">
-		    <div class = "left-side">
-				<div class="nav-link-wrapper">
-					<a href="index.html">About</a>
-				</div>
-				<div class="nav-link-wrapper">
-					<a href="research.html">Research</a>
-				</div>
-			    <div class="nav-link-wrapper">
-					<a href="teaching.html">Teaching</a>
-				</div>
-			</div>
-			
-			<div class="right-side">
-			
-			    <div class="nav-link-wrapper">
-					<a href="index.html">Daniil Larionov</a>
-				</div>
-				
-			
-			</div>
-			
-			</div>
-		</div>
-         
-	</div>
-	
-	
-	<div class='content'>
-	        
-			<section>
-	        <h3>Working papers</h3>
-            <p class="par"> <strong>Full Surplus Extraction from Colluding Bidders  <i> (Job Market Paper, draft coming soon) </i> </strong> </p>
 
-            <p class="parabstract">     I consider a repeated auction setting with colluding buyers and a seller who adjusts reserve prices
+   <div class="container-fluid m-2 p-3 ml-5 pl-3 bg-light">
+
+     <div class="row">
+       <nav class="navbar navbar-expand-md navbar-dark bg-dark py-3">
+             <a class="navbar-brand text-light pb-2 mb-0 h2" href="index.html">Daniil Larionov</a>
+             <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#toggleMobileMenu"
+               aria-controls="toggleMobileMenu"
+               aria-expanded="false"
+               aria-label="Toggle navigation"
+               >
+               <span class="navbar-toggler-icon"></span>
+             </button>
+
+          <div class="collapse navbar-collapse" id="toggleMobileMenu">
+             <ul class="navbar-nav text-center text-uppercase ms-auto">
+               <li>
+                 <a class="nav-link inactive" href="index.html">About</a>
+               </li>
+               <li>
+                 <a class="nav-link active" aria-current="page" href="research.html">Research</a>
+               </li>
+               <li>
+                 <a class="nav-link inactive" href="teaching.html">Teaching</a>
+               </li>
+             </ul>
+          </div>
+      </nav>
+     </div>
+
+	<section class="content bg-transparent text-dark p-lg-0 text-center text-sm-start">
+
+			<section class="py-5">
+	        <h3 class="text-dark">Working papers</h3>
+            <p class="lead"> <strong>Full Surplus Extraction from Colluding Bidders  <i> (Job Market Paper, draft coming soon) </i> </strong> </p>
+
+            <p class="lead my-3">  I consider a repeated auction setting with colluding buyers and a seller who adjusts reserve prices
                           over time without long term commitment. Studying this problem necessitates a new equilibrium
                           concept: <i>collusive public perfect equilibrium (cPPE)</i> designed to model the seller's concerns for
                           collusion. For every strategy of the seller I define the corresponding <i>"buyer-game"</i> in which the
@@ -54,26 +59,23 @@
                           seller-optimal stationary cPPE which allows the seller to extract the entire surplus from the buyers in
                           the limit as the discount factor goes to 1, thus showing that a patient non-committed seller
                           can effectively fight collusion among the buyers even when she can only affect reserve prices and
-                          has to satisfy stringent public disclosure requirements.       </p>
-            
+                          has to satisfy stringent public disclosure requirements. </p>
 			</section>
-			
-			
-			<section>
-			<h3 class="contact-header">Work in progress</h3>
-           <p class="par"> <strong> First Best Implementation with Costly Information Acquisition  </strong> <br>
-                        <i><small>joint with <a href="https://sites.google.com/view/takuroyamashita/home"> Takuro Yamashita</a> </i> </small>  </p>
+
+			<section class="py-2">
+			<h3 class="text-dark">Work in progress</h3>
+           <p class="lead"> <strong> First Best Implementation with Costly Information Acquisition </strong> <br>
+                        <i><small>joint with <a class="link-dark" href="https://sites.google.com/view/takuroyamashita/home">Takuro Yamashita</a> </i> </small>  </p>
 			</section>
-             
-			
-										
-			
-										
-										
-          </div>       
-    </div>
-	
-	
-	
+
+
+          </div>
+    </section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+  </script>
  </body>
  </html>
